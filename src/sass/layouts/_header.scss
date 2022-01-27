@@ -1,0 +1,15 @@
+.about {
+    // background-image: url('./assests/images/background.png');
+    &-image {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        position:relative;
+    }
+    &-desc {
+        width: 40%;
+        height: auto;
+        position: absolute;
+        top:20%;
+    }
+}

@@ -1,0 +1,8 @@
+.team {
+    background-color: #F4F4F4;
+    padding: 3.5rem 8.75rem;
+    &-desc {
+        @include flexProp;
+        margin-top: 2.5rem;
+    }
+}

@@ -1,0 +1,13 @@
+.menu {
+    background-color: #FFFFFF;
+    .active {
+        color: $mygreen;
+    }
+    li {
+        padding: 0 0.7rem;
+        a {
+            color: $mygrey;
+        }
+    }
+    // @extend btn-green;
+}
