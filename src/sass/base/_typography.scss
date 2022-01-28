@@ -1,13 +1,13 @@
 @mixin h1 {
-  @include rfs(2.488rem); //39.81px
+  @include rfs(2.125rem); //34px
 
 }
 @mixin h2 {
-  @include rfs(2.074rem); //33.18px
+  @include rfs(2rem); //32px
 
 }
 @mixin h3 {
-  @include rfs(1.728rem); //27.65px
+  @include rfs(1.5rem); //24px
 
 }
 @mixin h4 {
@@ -19,11 +19,11 @@
 
 }
 @mixin h6 {
-  @include rfs(1rem); //39.81px
+  @include rfs(0.875rem); //14px
 
 }
 @mixin des {
-  @include rfs(0.833rem); //13.33px 
+  @include rfs(1rem); //16px 
 
 }
 @mixin small {
@@ -48,7 +48,7 @@ h5,.h5{
 h6,.h6{
   @include h6;
 }
-p,.des{
+p,.des,li{
   @include des;
 }
 small,.small{
