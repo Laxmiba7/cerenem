@@ -11,33 +11,41 @@
 
 }
 @mixin h4 {
-  @include rfs(1.44rem); //23.04px
+  @include rfs(1rem); //16px
 
 }
 @mixin h5 {
-  @include rfs(1.2rem); //19.20px
+  @include rfs(0.875rem); //14px
 
 }
 @mixin h6 {
-  @include rfs(0.875rem); //14px
+  @include rfs(0.75rem); //12px
 
 }
 @mixin des {
   @include rfs(1rem); //16px 
 
 }
-@mixin small {
-  @include rfs(0.8rem);  //11.11px
-}
+// @mixin small {
+//   @include rfs(0.8rem);  //11.11px
+// }
+// font-family: 'Inter', sans-serif;
+// font-family: 'DM Sans', sans-serif;
 
 h1,.h1{
   @include h1;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
 }
 h2,.h2{
   @include h2;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
 }
 h3,.h3{
   @include h3;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
 }
 h4,.h4{
   @include h4;
@@ -50,10 +58,12 @@ h6,.h6{
 }
 p,.des,li{
   @include des;
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
 }
-small,.small{
-  @include small;
-}
+// small,.small{
+//   @include small;
+// }
 
 .font-semibold{
   font-weight: 600;
@@ -67,10 +77,10 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 
-p{
-  @include small;
-  color: $secondary;
-}
+// p{
+//   @include small;
+//   color: $secondary;
+// }
 
 
 .heading{
