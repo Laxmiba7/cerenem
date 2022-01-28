@@ -1,6 +1,7 @@
 .about {
-    p {
+    &-p {
         font-size: 18px;
+        color: $white;
     }
     &-image {
         width: 100%;

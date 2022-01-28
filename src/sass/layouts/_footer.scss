@@ -1,8 +1,12 @@
 .footer {
     padding: 5.3rem 10.31rem;
+    color:$grey70;
     li {
         list-style-type: none;
         font-family: 'DM Sans', sans-serif;
         font-weight: normal;
+    }
+    &-p {
+        color: $grey70;
     }
 }

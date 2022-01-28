@@ -1,3 +1,8 @@
 .btn-green {
-    background-color: $mygreen;
-  }
+    background-color: $green;
+    color: $white;
+}
+.btn-link {
+  text-decoration: none;
+  color: $green;
+}

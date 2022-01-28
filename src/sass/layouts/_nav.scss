@@ -1,13 +1,26 @@
 .menu {
     background-color: #FFFFFF;
-    .active {
-        color: $mygreen;
+    .navbar-nav .nav-link.active {
+        color: $green;
+    }
+    .navbar-nav .nav-link.active::after {
+        content: '';
+        display: block;
+        border: 3px solid $green;
+        border-radius: 2px 2px 0px 0px;
+        width: 2rem;
+        position: absolute;
+        bottom: 0;
+        left: 38%;
+    }
+    .navbar-nav .nav-link {
+        color: $grey70;
     }
     li {
         padding: 0 0.7rem;
-        a {
-            color: $mygrey;
-        }
+        // a {
+        //     // color: $mygrey;
+        // }
     }
     // @extend btn-green;
 }

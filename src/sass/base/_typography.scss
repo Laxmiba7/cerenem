@@ -36,25 +36,31 @@ h1,.h1{
   @include h1;
   font-family: 'DM Sans', sans-serif;
   font-weight: bold;
+  color: $white;
 }
 h2,.h2{
   @include h2;
   font-family: 'DM Sans', sans-serif;
   font-weight: bold;
+  color: $navy;
 }
 h3,.h3{
   @include h3;
   font-family: 'DM Sans', sans-serif;
   font-weight: bold;
+  color: $navy;
 }
 h4,.h4{
   @include h4;
+  color: $grey80;
 }
 h5,.h5{
   @include h5;
+  color: $grey50;
 }
 h6,.h6{
   @include h6;
+  color: $grey50;
 }
 p,.des,li{
   @include des;
@@ -77,10 +83,6 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 
-// p{
-//   @include small;
-//   color: $secondary;
-// }
 
 
 .heading{

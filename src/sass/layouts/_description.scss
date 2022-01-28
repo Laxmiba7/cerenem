@@ -1,4 +1,7 @@
 .description {
     background-color: #FFFFFF;
     padding: 2.5rem 21rem;
+    &-p {
+        color: $grey-60;
+    }
 }
