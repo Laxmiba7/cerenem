@@ -115,6 +115,11 @@ module.exports = {
       filename: "./index.html",
       chunks: ["home", "vendors"]
     }),
+    // new HTMLWebpackPlugin({
+    //   template: "./src/product.html",
+    //   filename: "./product.html",
+    //   chunks: ["home", "vendors"]
+    // })
 
 
 
