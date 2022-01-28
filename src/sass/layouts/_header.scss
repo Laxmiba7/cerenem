@@ -1,18 +1,24 @@
-.about {
+.header {
+    position: relative;
     &-p {
         font-size: 18px;
         color: $white;
+        @include media-breakpoint-down(lg) {
+            display: none;
+        }
     }
-    &-image {
+    &-img{
         width: 100%;
         height: auto;
         object-fit: cover;
-        position:relative;
+        
     }
     &-desc {
         width: 40%;
         height: auto;
         position: absolute;
-        top:20%;
+        top:25%;
+        left: 5%;
+        
     }
 }

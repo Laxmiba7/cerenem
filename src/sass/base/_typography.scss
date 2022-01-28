@@ -26,11 +26,6 @@
   @include rfs(1rem); //16px 
 
 }
-// @mixin small {
-//   @include rfs(0.8rem);  //11.11px
-// }
-// font-family: 'Inter', sans-serif;
-// font-family: 'DM Sans', sans-serif;
 
 h1,.h1{
   @include h1;

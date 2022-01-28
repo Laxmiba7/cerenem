@@ -26,11 +26,14 @@ $line-height-base:1.5;
 
 $input-btn-line-height:1.2;
 
-
-
-//fonts 
-//$font-family-sans-serif:'Roboto', sans-serif;
-$font-family-sans-serif:'Public Sans', sans-serif;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1280px,
+  xxl: 1420px,
+);
 
 //colors
 
