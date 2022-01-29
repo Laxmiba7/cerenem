@@ -1,0 +1,87 @@
+@mixin h1 {
+  @include rfs(2.125rem); //34px
+
+}
+@mixin h2 {
+  @include rfs(2rem); //32px
+
+}
+@mixin h3 {
+  @include rfs(1.5rem); //24px
+
+}
+@mixin h4 {
+  @include rfs(1rem); //16px
+
+}
+@mixin h5 {
+  @include rfs(0.875rem); //14px
+
+}
+@mixin h6 {
+  @include rfs(0.75rem); //12px
+
+}
+@mixin des {
+  @include rfs(1rem); //16px 
+
+}
+
+
+h1,.h1{
+  @include h1;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  color: $white;
+}
+h2,.h2{
+  @include h2;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  color: $navy;
+}
+h3,.h3{
+  @include h3;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  color: $navy;
+}
+h4,.h4{
+  @include h4;
+  color: $grey80;
+}
+h5,.h5{
+  @include h5;
+  color: $grey50;
+}
+h6,.h6{
+  @include h6;
+  color: $grey50;
+}
+p,.des,li{
+  @include des;
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+}
+// small,.small{
+//   @include small;
+// }
+
+.font-semibold{
+  font-weight: 600;
+}
+.font-bold{
+  font-weight: 900;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  margin:0;
+}
+
+
+
+
+.heading{
+  color: $orange;
+  font-weight: 700;
+}

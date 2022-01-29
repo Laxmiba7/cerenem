@@ -1,0 +1,31 @@
+.description {
+    background-color: #FFFFFF;
+    padding: 2.5rem 15rem;
+    @include media-breakpoint-down(sm) {
+        padding: 22px 24px;
+    }
+    @include media-breakpoint-down(md) {
+        padding: 22px 24px;
+    }
+    @include media-breakpoint-down(lg) {
+        padding: 22px 24px;
+    }
+    &-p,li{
+        color: $grey-60;
+    }
+    li {
+        display: flex;
+    }
+    &-li::before {
+        content: ".";
+        display: inline-block;
+        height: 8px;
+        width: 8px;
+        background-color: $green;
+        border-radius: 50%;
+        padding-right: 7px;
+        margin-top: 9px;
+        margin-right:10px;
+        
+    }
+}
