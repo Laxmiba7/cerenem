@@ -1,5 +1,9 @@
 .menu {
     background-color: #FFFFFF;
+    padding: 0.5rem 7rem;
+    @include media-breakpoint-down(sm) {
+        padding: 5px;
+    }
     .navbar-nav .nav-link.active {
         color: $green;
     }
@@ -18,9 +22,7 @@
     }
     li {
         padding: 0 0.7rem;
-        // a {
-        //     // color: $mygrey;
-        // }
+       
     }
     // @extend btn-green;
 }

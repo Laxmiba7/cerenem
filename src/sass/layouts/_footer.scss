@@ -1,6 +1,12 @@
 .footer {
     padding: 5.3rem 10.31rem;
     color:$grey70;
+    @include media-breakpoint-down(sm) {
+        padding: 22px 24px;
+    }
+    @include media-breakpoint-down(md) {
+        padding: 22px 24px;
+    }
     li {
         list-style-type: none;
         font-family: 'DM Sans', sans-serif;

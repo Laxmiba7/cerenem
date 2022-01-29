@@ -1,0 +1,23 @@
+.product {
+    padding: 2rem 10.31rem;
+    background-color: #E5E5E5;
+    @include media-breakpoint-down(sm) {
+        padding: 2rem 6rem;
+    }
+    
+    &-h1 {
+        color: $navy;
+    }
+    img {
+        width:100% ;
+        height: auto;
+    }
+    &-desc {
+        @include flexProp;
+        align-items: flex-start;
+        // justify-content: center;
+        width: 40%;
+        // flex-direction: row;
+    
+    }
+}

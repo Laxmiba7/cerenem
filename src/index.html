@@ -13,9 +13,9 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light menu">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+    <nav class="navbar  navbar-expand-lg navbar-light menu">
+      <div class="container-fluid justify-content-end justify-content-lg-between">
+        <a class="navbar-brand d-none d-lg-block" href="#">
           <img src="./assests/images/logo.png" alt="logo image">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,15 +56,19 @@
     </nav>
     <main>
     <section class="header" >
+      
       <img src="./assests/images/background.png" alt="about background image" class="header-img">
+      <div class="container">
       <div class="row header-desc">
         <div class="col">
           <h1>About Us</h1>
           <p class="header-p mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam vitae nisl nulla pharetra. Sed donec vivamus mattis lacus, nunc, et. Auctor dolor auctor elit neque feugiat massa elementum, cursus. Euismod sit augue at dolor.</p>
         </div>
       </div>
+    </div>
     </section>
-    <section class="description mt-5">
+    <section class="description container mt-5">
+      <div class="container">
       <p class="description-p">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio orci, aliquam nunc justo viverra orci. Quis neque, faucibus lectus fames malesuada ultricies donec.
       </p>
@@ -90,25 +94,26 @@
         Company Objectives
       </h3>
       <ul>
-        <li class="mt-2 description-p">
+        <li class="mt-2 description-li">
           Our online payment solution helps to empower businesses like Hotels, Travel agencies, SME's, Export based, Education, PSP, ISP, Telecom, and many more.
         </li>
-        <li class="mt-2 description-p">
+        <li class="mt-2 description-li">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus nec id quam imperdiet.Tellus nec id quam imperdiet.
         </li>
-        <li class="mt-2 description-p">
+        <li class="mt-2 description-li">
           To be the most preferred e-payment processing partner for the cross-border transaction. 
         </li>
-        <li class="mt-2 description-p">
+        <li class="mt-2 description-li">
           To be the most preferred e-payment processing partner for the cross-border transaction. 
         </li>
-        <li class="mt-2 description-p">
+        <li class="mt-2 description-li">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus nec id quam imperdiet.Tellus nec id quam imperdiet.
         </li>
       </ul>
-
+    </div>
     </section>
-    <section class="team d-flex flex-column justify-content-center">
+    <section class="team d-none d-lg-block">
+      <div class="container">
       <h2>Our team</h2>
       <div class="row text-center mt-5">
         <h3>Board of Directors</h3>
@@ -233,12 +238,13 @@
 
        
       </div>
+    </div>
       
     </section>
   </main>
   <footer class="footer">
     <div class="row">
-      <div class="col">
+      <div class="col d-none d-lg-block">
        <img src='./assests/images/logo.png' alt="Cerenem logo">
       </div>
       <div class="col">
@@ -271,7 +277,7 @@
         </ul>
       </div>
     </div>
-    <div class="d-flex justify-content-between mt-5 footer-p">
+    <div class="d-flex justify-content-between flex-wrap-reverse mt-5 footer-p">
       <div>
        <p>Copyright ©2020 Payment Nepal. All rights reserved.</p>
      </div>
